@@ -4,17 +4,10 @@ SpreeAddToCartAjax
 Provide ajax for the add to cart button and display a succesful message below the add to cart form.
 Currently only support spree 2-4-stable
 
-TODO:
--------
-Add support for 2.2, 2.3 and 3.0 and write rspec tests.
-
-Installation
-------------
-
 Add spree_add_to_cart_ajax to your Gemfile:
 
 ```ruby
-gem 'spree_add_to_cart_ajax', github: 'nathandao/spree_add_to_cart_ajax'
+gem 'spree_add_to_cart_ajax', github: 'nathandao/spree_add_to_cart_ajax', branch: '2-4-stable'
 ```
 
 Bundle your dependencies and run the installation generator:
@@ -22,6 +15,13 @@ Bundle your dependencies and run the installation generator:
 ```shell
 bundle
 ```
+
+TODO:
+-------
+Add support for 2.2, 2.3 and 3.0 and write rspec tests.
+
+Installation
+------------
 
 TODO: Testing
 -------
