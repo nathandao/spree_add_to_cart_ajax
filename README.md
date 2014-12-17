@@ -6,8 +6,7 @@ Currently only support spree 2-4-stable
 
 TODO:
 -------
-Add support for 2.2, 2.3 and 3.0
-rspec tests
+Add support for 2.2, 2.3 and 3.0 and write rspec tests.
 
 Installation
 ------------
