@@ -20,9 +20,6 @@ TODO:
 -------
 Add support for 2.2, 2.3 and 3.0 and write rspec tests.
 
-Installation
-------------
-
 TODO: Testing
 -------
 
