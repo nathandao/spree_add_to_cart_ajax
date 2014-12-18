@@ -35,6 +35,7 @@ require 'spree_add_to_cart_ajax/factories'
 
 RSpec.configure do |config|
   config.include FactoryGirl::Syntax::Methods
+  config.include Spree::TestingSupport::ControllerRequests, :type => :controller
 
   # Infer an example group's spec type from the file location.
   config.infer_spec_type_from_file_location!
@@ -84,4 +85,5 @@ RSpec.configure do |config|
 
   config.fail_fast = ENV['FAIL_FAST'] || false
   config.order = "random"
+  config.include Capybara::DSL
 end
