@@ -26,7 +26,7 @@ describe Spree::OrdersController, :type => :controller do
         end
 
         it "should handle ajax population" do
-          expect(populator).to receive(:populate).with("2", "5", nil).and_return(true)
+          expect(populator).to receive(:populate).with("2", "5").and_return(true)
           spree_post :populate, { :order_id => 1, :variant_id => 2, :quantity => 5 }, { :format => :js }
           expect(response.code).to eq("302")
         end
