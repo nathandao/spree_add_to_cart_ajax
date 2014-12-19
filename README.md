@@ -7,7 +7,7 @@ Currently only support spree 2-4-stable
 Add spree_add_to_cart_ajax to your Gemfile:
 
 ```ruby
-gem 'spree_add_to_cart_ajax', github: 'nathandao/spree_add_to_cart_ajax', branch: '2-4-stable'
+gem 'spree_add_to_cart_ajax', github: 'nathandao/spree_add_to_cart_ajax', branch: '2-3-stable'
 ```
 
 Bundle your dependencies and run the installation generator:
